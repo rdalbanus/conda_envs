@@ -1,0 +1,19 @@
+name: ArchR
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - macs2
+  - r-biocmanager
+  - r-base
+  - r-essentials
+  - r-devtools
+  - r-seurat
+  - r-cairo
+  - r-harmony
+  - r-shiny
+  - r-rhandsontable
+  - r-shinythemes
+
+# devtools::install_github("immunogenomics/presto", repos = BiocManager::repositories())
+# devtools::install_github("GreenleafLab/ArchR", ref="master", repos = BiocManager::repositories())
